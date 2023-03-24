@@ -37,7 +37,7 @@ for (let estado in faturamentoPorEstado) {
 
 // Exibe o resultado no console/terminal
 console.log(percentuaisPorEstado);
-console.log(Object.values(percentuaisPorEstado).reduce((acc, valor) => acc + valor, 0))
+// console.log(Object.values(percentuaisPorEstado).reduce((acc, valor) => acc + valor, 0))
 
 /*
   Resultado:
@@ -48,5 +48,5 @@ console.log(Object.values(percentuaisPorEstado).reduce((acc, valor) => acc + val
   ES: 15.028481414968068,
   Outros: 10.981153018494469
 }
-Preferi não arredondar os números sob risco de 
+
 */
