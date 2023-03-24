@@ -17,7 +17,7 @@ const dados = JSON.parse(readFileSync('dados.json'));
 // filtra apenas os dias com faturamento (dados é um array)
 // dessa maneira já desconsidera os dias que não tiveram faturamento, como pedido no enunciado.
 const diasFaturamento = dados.filter((objeto) => objeto.valor > 0);
-console.log(diasFaturamento);
+// console.log(diasFaturamento);
 
 // calcula o menor e o maior faturamento
 // Math.min() e Math.max() são métodos de array que recebem uma lista de números e retornam o menor e o maior, respectivamente
